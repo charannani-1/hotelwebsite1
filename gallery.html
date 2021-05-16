@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <title>Gallery</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background: rgba(219, 219, 219, 0.8);
+      margin: 0;
+      padding: 0;
+    }
+    .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;×
+Animated Sidenav Example
+Click on the element below to open the side navigation menu.
+
+☰ Menu
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+    .gallery {
+      border: 3px solid darkgray;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    .slides {
+      padding: 10px 10px;
+      float: left;
+      width: 25%;
+    }
+
+    @media (max-width: 900px) {
+      .slides {
+        width: 50%;
+        margin: 6px 0;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .slides {
+        width: 100%;
+      }
+    }
+
+    .im:hover {
+      transform: scale(1.1);
+      transition: 0.5s;
+      overflow: hidden;
+      border-radius: 5%;
+      box-shadow: 10px 10px 40px whitesmoke;
+    }
+
+    footer{
+  background-color: #343a40;
+  padding:50px 20px ;
+}
+footer ul{
+  display: flex;
+  justify-content: space-evenly;
+}
+footer li{
+  display: inline-block;
+  
+}
+
+  </style>
+</head>
+
+<body>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="romms.html">Rooms</a>
+     
+      <a href="contact.html">Contact</a>
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+  <h1 style="text-align: center; color: #cf65b9;font-size:5vw;">Gallery</h1>
+  <div class="slides">
+    <div class="gallery">
+      <a href="gallery/37.jpg" target="_blank"><img class="im" src="37.jpg" width="300" height="200" /></a>
+    </div>
+  </div>
+  <div class="slides">
+    <div class="gallery">
+      <a href="gallery/38.jpg" target="_blank"><img class="im" src="38.jpg" width="300" height="200" /></a>
+    </div>
+  </div>
+  <div class="slides">
+    <div class="gallery">
+      <a href="gallery/39.jpg" target="_blank"><img class="im" src="39.jpg" width="300" height="200" /></a>
+    </div>
+  </div>
+  <div class="slides">
+    <div class="gallery">
+      <a href="gallery/40.jpg" target="_blank"><img class="im" src="40.jpg" width="300" height="200" /></a>
+    </div>
+  </div>
+  <div class="slides">
+    <div class="gallery">
+      <a href="gallery/41.jpg" target="_blank"><img class="im" src="41.jpg" width="300" height="200" /></a>
+    </div>
+  </div>
+  <div class="slides">
+    <div class="gallery">
+      <a href="gallery/42.jpg" target="_blank"><img class="im" src="42.jpg" width="300" height="200" /></a>
+    </div>
+  </div>
+  <div class="slides">
+    <div class="gallery">
+      <a href="gallery/43.jpg" target="_blank"><img class="im" src="43.jpg" width="300" height="200" /></a>
+    </div>
+  </div>
+  <div class="slides">
+    <div class="gallery">
+      <a href="gallery/44.jpg" target="_blank"><img class="im" src="9.jpg" width="300" height="200" /></a>
+    </div>
+  </div>
+  <div class="slides">
+    <div class="gallery">
+      <a href="gallery/45.jpg" target="_blank"><img class="im" src="0.jpg" width="300" height="200" /></a>
+    </div>
+  </div>
+  <div class="slides">
+    <div class="gallery">
+      <a href="gallery/46.jpg" target="_blank"><img class="im" src="46.jpg" width="300" height="200" /></a>
+    </div>
+  </div>
+  <div class="slides">
+    <div class="gallery">
+      <a href="gallery/47.jpg" target="_blank"><img class="im" src="1.jpg" width="300" height="200" /></a>
+    </div>
+  </div>
+  <div class="slides">
+    <div class="gallery">
+      <a href="gallery/48.jpg" target="_blank"><img class="im" src="48.jpg" width="300" height="200" /></a>
+    </div>
+  </div>
+
+  <footer>
+    <center style="color: whitesmoke;">IMPERIAL HOTEL &copy; 2021</center>
+  
+    <center><h4 style="color: whitesmoke;">Contact us</h4></center>
+    <ul>
+    <li style="list-style: none;"><i class="fab fa-instagram"></i><img src="instalogo.jpg" alt="" style="width: 30px;height: 30px;"></a></li>
+    <li style="list-style: none;"><a href=""> <i class="fas fa-envelope"></i></a></li>
+    <li style="list-style: none;"><a href=""> <i class="fab fa-facebook-square"></i></a></li>
+    
+    </ul>
+    
+      </footer>
+
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+
+</body>
+
+</html>

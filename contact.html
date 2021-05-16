@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <!--fontasome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<style>
+    .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;×
+Animated Sidenav Example
+Click on the element below to open the side navigation menu.
+
+☰ Menu
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+    .container{
+
+padding: 5px;
+line-height: 1rem;
+}
+.ham{
+border-radius: 25px;
+}
+.fas{
+color: goldenrod;
+}
+
+.cha
+{
+position: absolute;
+left: 63%;
+top: 5%;
+}
+
+.var input{
+width: 40%;
+height: 45px;
+
+}
+.button{
+border: solid 2px black;
+width: 7% ;
+height: 35px;
+border-radius: 25px;
+}
+.cha h3{
+font-size: 35px;
+
+}
+.cha p{
+font-size: 20px; 
+}
+.container h1{
+text-decoration: 3.5px underline goldenrod;
+
+}
+body{
+
+background-image: url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+background-size:cover ;
+margin: 0;
+padding: 0;
+}
+
+footer {
+        bottom: 0px;
+        height: 250px;
+        background-color: #2c3e50;
+        color: white;
+        font-family: Verdana, sans-serif;
+        padding-top: 15px;
+        padding-left: 20px;
+      }
+
+      .table-footer {
+        height: 100px;
+        color: white;
+        float: right;
+        width: 80%;
+      }
+
+      .table-footer th {
+        font-size: 25px;
+        text-align: left;
+        text-shadow: 2px 2px black;
+      }
+
+      .table-footer td {
+        padding: 10px;
+        text-align: left;
+      }
+
+     
+
+      .sub-footer {
+        height: 200px;
+      }
+
+      td a {
+        text-decoration: none;
+        color: white;
+      }
+
+      td a:hover {
+        text-decoration: underline;
+        border-radius: 5px;
+        transition: 0.42s;
+        font-size: 22px;
+      }
+
+      footer center {
+        text-shadow: 1px 1px black;
+      }
+
+
+</style>
+  </head>
+<body>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="romms.html">Rooms</a>
+   
+      <a href="contact.html">Contact</a>
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+    <div class="container">  
+        <form class="form1" action="" method="post">
+          <center><h1>  Contact Us  </h1></center>
+          
+          <div class="var">
+            <input class="ham" placeholder="Your name" type="text" tabindex="1" required autofocus style="height: 45px;">
+            <br>
+            <br>
+            <br>
+          
+            
+              <input class="ham" placeholder="Your Email Address" type="email" tabindex="2" required style="height:45px;">
+            <br>
+            <br>
+            <br>
+          
+            
+              <input class="ham"  placeholder="Your Phone Number " type="tel" tabindex="3" required style="height:45px;">
+            <br>
+            <br>
+            <br>
+            
+              <input class="ham"  placeholder="Your email " type="url" tabindex="4" required style="height: 45px;">
+            <br>
+            <br>
+            <br>
+            
+              <textarea class="ham"  placeholder="Type your message here...." tabindex="5" required style="height:120px; width: 35%;"></textarea>
+            <br>
+            <br>
+            <br>
+          </div>
+
+   
+          
+            <button class="button" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            <br>
+            <br>
+              
+        </form>
+      </div>
+  <div class="cha">
+    <h3> <u>Address</u>  </h3> 
+    <p> <i class="fas fa-map-marker-alt"></i> LB nagar,Hyderbad,India,500074</p> 
+     
+    <h3> <u>Phone numbers</u>  </h3> 
+    <p> <i class="fas fa-phone-alt"></i> 040-435678, 040-4355679</p> 
+
+    <h3> <u>Email</u>  </h3> 
+    <p> <i class="fas fa-envelope"></i> hotelws@gmail.com</p> 
+
+    <h3> <u>Booking hours</u>  </h3> 
+    <p> <i class="fas fa-clock"></i> 9:00 am to 6:00pm</p> 
+  </div>
+     
+  <div class="col-lg-6 col-md-6 col-sm-12" id="contact-map">
+    <a target="_blank"><iframe src="https://www.google.com/maps/d/u/0/embed?mid=1A5XCtDMGY-uNKytUCDHn4Z77v8s&ie=UTF8&hl=en&msa=0&ll=17.442955801943825%2C78.50371991320311&spn=0.027185%2C0.066862&z=15&output=embed" alt="map" id="map" width="600px" height="430px"frameborder="0" aria-hidden="false" tabindex="0"></iframe></a>
+</div>       
+      
+<footer>
+  <center>IMPERIAL HOTEL &copy; 2021</center>
+  <div id="CONTACT"></div>
+ 
+    <table class="table-footer">
+      <tr>
+        <th>About us</th>
+        <th>Contact</th>
+      </tr>
+      <tr>
+        <td><a href="romms.html">ROOMS</a></td>
+        
+        <td>
+          <a
+            target="_blank"
+            href="https://www.facebook.com/Creative-Decors-112704957174736"
+          >
+          <i class="fab fa-facebook-square"></i>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="">Blogs</a></td>
+       
+        <td>
+          <a
+            target="_blank"
+            href="" >
+            <i class="fas fa-envelope"></i>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="about.html">Team</a></td>
+       
+        <td>
+          <a target="_blank" href="">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </td>
+      </tr>
+    </table>
+  </div>
+  
+</footer>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+</body>
+</html>

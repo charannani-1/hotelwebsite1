@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <!--jQuery library--> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--Latest compiled and minified JavaScript--> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+	<style>
+	        .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;×
+Animated Sidenav Example
+Click on the element below to open the side navigation menu.
+
+☰ Menu
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+    .btn{
+ 	border-radius:20px,20px,20px,20px;
+	 background-color:#B28B15;
+ 	color:white;
+ 	width:175px;
+	 height:40px;
+	 font-size : 20px;
+ 	padding:10px,20px;
+  	border-radius: 25px;
+	}
+	.button{
+ 	border-radius:20px,20px,20px,20px;
+	 background-color:#B28B15;
+ 	color:white;
+ 	width:175px;
+	 height:50px;
+	 font-size : 25px;
+ 	padding-top:10px;
+  	border-radius: 25px;
+	}
+	
+	#head1{
+		font-family:Brush Script MT;
+		font-size:4em;
+		
+		color:#b71c1c;
+	}
+	
+	h2{
+		font-family:Brush Script MT;
+		font-size:3em;
+		
+		color:#B28B15;
+	}
+	#banner_image{
+			padding-top: 0px;
+			 padding-bottom:150px;
+ 			 text-align: center;
+			 color: #f8f8f8;
+			 background: url(bg4.jpg) no-repeat center center;
+ 			 background-size: cover;
+ 			 position:relative;
+			max-height:400px;
+	       }
+	#banner_content
+	{
+		 font-family:Times new Roman;
+		 position: relative;
+		 padding-top: 6%;
+ 		padding-bottom: 6%;
+ 		margin-top: 12%;
+ 		margin-bottom: 12%;
+ 		background-color: rgba(0, 0, 0,0.2 );
+ 		max-width: 660px;
+		}
+	#image .imgthumb:hover img{
+		filter:grayscale(100%);
+		-webkit-filter:grayscale(100%);
+		transition:filter 0.5% ease-in -out;
+	}
+	#image .imgthumb span{
+	display:none;
+	position:absolute;
+	top:95px;
+	left:75px;
+	}
+	footer {
+        bottom: 0px;
+        height: 250px;
+        background-color: #2c3e50;
+        color: white;
+        font-family: Verdana, sans-serif;
+        padding-top: 15px;
+        padding-left: 20px;
+      }
+
+      .table-footer {
+        height: 100px;
+        color: white;
+        float: right;
+        width: 80%;
+      }
+
+      .table-footer th {
+        font-size: 25px;
+        text-align: left;
+        text-shadow: 2px 2px black;
+      }
+
+      .table-footer td {
+        padding: 10px;
+        text-align: left;
+      }
+
+     
+
+      .sub-footer {
+        height: 200px;
+      }
+
+      td a {
+        text-decoration: none;
+        color: white;
+      }
+
+      td a:hover {
+        text-decoration: underline;
+        border-radius: 5px;
+        transition: 0.42s;
+        font-size: 22px;
+      }
+
+      footer center {
+        text-shadow: 1px 1px black;
+      }
+
+	</style>
+  </head>
+  <body>
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="index.html">Home</a>
+		<a href="about.html">About</a>
+		<a href="gallery.html">Gallery</a>
+		<a href="romms.html">Rooms</a>
+		
+		  <a href="contact.html">Contact</a>
+	  </div>
+	  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+	<div id="banner_image" >
+		<div class="container" >
+		<center><div id="banner_content">
+			<h1 id="head1"> Rooms and Suites </h1>
+		</div></center>
+		</div>
+	</div>
+	<div class="container " style="padding-top:10px">
+          
+              <center><h2>Our Best Rooms</h2><center>
+              
+              <p style="width: 40%;">Our hotel has a wide variety of greatly furnished and fully equipped rooms for every guest. Whether you are travelling on busiess or with family, we have what you need to enjoy your stay.</p>
+            
+          </div>
+	<div class="container" style="padding-top:10px;padding-left: 30%;">
+	<div class="row">
+	
+	<div class="col-lg-4">
+	<div class="thumbnail">	
+			<img src="sr.jpg" >
+			<div class="caption">
+				<p><h4 ><b style="float:left">Single Room</center></b>
+				<b style="float:right">from $280</b></h4></p>
+				<br><br>
+				<center><a href="singleroom.html" class="btn btn-primary btn-block">View more</a></center>
+			</div>
+			</div>
+	</div>
+	
+	<div class="col-lg-4">
+	<div class="thumbnail">	
+			<img src="dr.jpg" >
+			<div class="caption">
+				<p><h4 ><b style="float:left">Double Room</center></b>
+				<b style="float:right">from $480</b></h4></p>
+				<br><br>
+				<center><a href="double.html" class="btn btn-primary btn-block">View more</a></center>
+			</div>
+			</div>
+	</div>
+	
+	</div>
+	</div>
+	<div class="container" style="padding-top:10px;padding-left: 30%;">
+	<div class="row">
+	
+	<div class="col-lg-4">
+	<div class="thumbnail">	
+			<img src="fr.jpg" >
+			<div class="caption">
+				<p><h4 ><b style="float:left">Family Room</center></b>
+				<b style="float:right">from $380</b></h4></p>
+				<br><br>
+				<center><a href="family.html" class="btn btn-primary btn-block">View more</a></center>
+			</div>
+			</div>
+	</div>
+
+	<div class="col-lg-4">
+	<div class="thumbnail">	
+			<img src="vip.jpg" >
+			<div class="caption">
+				<p><h4 ><b style="float:left">VIP Suite</center></b>
+				<b style="float:right">from $600</b></h4></p>
+				<br><br>
+				<center><a href="vip.html" class="btn btn-primary btn-block">View more</a></center>
+			</div>
+			</div>
+	</div>
+	</div>
+	</div>
+	
+
+	<footer>
+		<center>IMPERIAL HOTEL &copy; 2021</center>
+		<div id="CONTACT"></div>
+	   
+		  <table class="table-footer">
+			<tr>
+			  <th>About us</th>
+			  <th>Contact</th>
+			</tr>
+			<tr>
+			  <td><a href="romms.html">ROOMS</a></td>
+			  
+			  <td>
+				<a
+				  target="_blank"
+				  href="https://www.facebook.com/Creative-Decors-112704957174736"
+				>
+				<i class="fab fa-facebook-square"></i>
+				</a>
+			  </td>
+			</tr>
+			<tr>
+			  <td><a href="">Blogs</a></td>
+			 
+			  <td>
+				<a
+				  target="_blank"
+				  href="" >
+				  <i class="fas fa-envelope"></i>
+				</a>
+			  </td>
+			</tr>
+			<tr>
+			  <td><a href="about.html">Team</a></td>
+			 
+			  <td>
+				<a target="_blank" href="">
+					<i class="fab fa-instagram"></i>
+				</a>
+			  </td>
+			</tr>
+		  </table>
+		</div>
+	
+	  </footer>
+
+		  <script>
+			function openNav() {
+			  document.getElementById("mySidenav").style.width = "250px";
+			}
+			
+			function closeNav() {
+			  document.getElementById("mySidenav").style.width = "0";
+			}
+			</script>
+  </body>
+</html>

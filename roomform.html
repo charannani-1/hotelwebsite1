@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rent Your Room</title>
+<style>
+    body{
+  margin=0;
+  padding=0;
+
+    }
+
+.signup{
+  width:300px;
+  padding:30px;
+  top:10%;
+  left:40%;
+  position: fixed;
+  transform=:trnslate(-50%,-50%);
+  background:none;
+  text-align: center;
+  float: center;
+}
+
+.signup h1{
+  color: rgb(226, 45, 45);
+  text-transform:uppercase;
+}
+.signup input[type="text"],.signup input[type="password"], .signup input[type="email"]
+{
+  border:0;
+  background:none;
+  display: block;
+  margin:20px auto;
+  text-align: center;
+  border:1px solid #0367fd;
+  width:220px;
+  color:black;
+  outline: none;
+  border-radius: 4px;
+  padding: 14px 10px;
+  transition: 0.24px;
+}
+.signup input[type="submit"]
+{
+  border:0;
+  background:none;
+  display: block;
+  margin:20px auto;
+  text-align: center;
+  border:1px solid #0367fd;
+  width:220px;
+  color:black;
+  outline: none;
+  border-radius: 4px;
+  padding: 14px 10px;
+  transition: 0.24px;
+  cursor:pointer;
+}
+.signup input[type="text"]:focus,.signup input[type="password"]:focus,.signup input[type="email"]:focus
+{
+
+border-color: none;
+}
+.signup input[type="text"]:hover,.signup input[type="password"]:hover,.signup input[type="email"]:hover{
+    background: none;
+}
+.signup input[type="submit"]:hover{
+  background: none;
+}
+.signup button{
+    border:0;
+  background:none;
+  display: block;
+  margin:20px auto;
+  text-align: center;
+  border:1px solid #0367fd;
+  width:180px;
+  color:black;
+  outline: none;
+  border-radius: 4px;
+  padding: 14px 10px;
+  transition: 0.24px;
+  cursor:pointer;
+}
+</style>
+  </head>
+  <body>
+    <div>
+    <form class="signup" action="login1.html" method="post">
+      <h1>Book Your Room</h1>
+      <input type="text"  placeholder="first-name" id="fname" required>
+        <input type="text"  placeholder="last-name" id="lname" required>
+        <input type="text"  placeholder="phn number" id="pnum" required>
+        <input type="text"  placeholder="No. of People" id="lname" required>
+        <input type="email"  placeholder="email-id" id="email" required>
+       
+      <button onclick="my()"><a href="" style="text-decoration: none;" ><b style="font-weight: bolder;">Conform Booking</b></a></button>
+    </form>
+</div>
+
+<script>
+function my()
+{
+    alert("Your room has booked successfully   ");
+}
+</script>
+  </body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+            .checkin input{
+                width: 30%;
+                height: 30px;
+                justify-content: space-evenly;
+                border: solid 1px black;
+                border-radius: 10px;
+            }
+            .checkin input:hover{
+                width: 35%;
+                height: 35px;
+                justify-content: space-evenly;
+                border: solid 2px rgb(87, 156, 153);
+                border-radius: 10px;
+                transition-delay: 0.4ms;
+            }
+            .checkin button{
+                border: solid 1.5px black;
+                border-radius: 20px;
+                height: 40px;
+                width: 20%;
+                background-color: darkgray;
+            }
+
+            footer {
+        bottom: 0px;
+        height: 250px;
+        background-color: #2c3e50;
+        color: white;
+        font-family: Verdana, sans-serif;
+        padding-top: 15px;
+        padding-left: 20px;
+        width: 98%;
+      }
+
+      .table-footer {
+        height: 100px;
+        color: white;
+        float: right;
+        width: 100%;
+      }
+
+      .table-footer th {
+        font-size: 25px;
+        text-align: left;
+        text-shadow: 2px 2px black;
+      }
+
+      .table-footer td {
+        padding: 10px;
+        text-align: left;
+      }
+
+     
+
+      .sub-footer {
+        height: 200px;
+      }
+
+      td a {
+        text-decoration: none;
+        color: white;
+      }
+
+      td a:hover {
+        text-decoration: underline;
+        border-radius: 5px;
+        transition: 0.42s;
+        font-size: 22px;
+      }
+
+      footer center {
+        text-shadow: 1px 1px black;
+      }
+    </style>
+</head>
+<body>
+    <div class="checkin">
+        <center>
+            <form action="checkin.html">
+                <h2>CHECK-IN FORM</h2>
+                <h3> Name </h3>
+                  <input type="text" required>
+                 <h3>Room Number</h3>
+                  <input type="text" required>
+                  <h3>Booked Date</h3>
+                  <input type="date" required>
+                 <h3>NO.of Days staying</h3>
+                  <input type="text" required>
+                  <h3>Mobile No.</h3>
+                  <input type="text " maxlength="10" required>
+                <h3>Email <span style="font-size: 14px;">(optional)</span>
+                </h3>
+                  <input type="email" ><br><br>
+                  <button><b>checkin</b></button>
+             <br><br>
+             </form>
+        </center>
+            </div>
+    
+            <footer>
+                <center>IMPERIAL HOTEL &copy; 2021</center>
+                <div id="CONTACT"></div>
+               
+                  <table class="table-footer">
+                    <tr>
+                      <th>About us</th>
+                      <th>Contact</th>
+                    </tr>
+                    <tr>
+                      <td><a href="romms.html">ROOMS</a></td>
+                      
+                      <td>
+                        <a
+                          target="_blank"
+                          href="https://www.facebook.com/Creative-Decors-112704957174736"
+                        >
+                        <i class="fab fa-facebook-square"></i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><a href="">Blogs</a></td>
+                     
+                      <td>
+                        <a
+                          target="_blank"
+                          href="" >
+                          <i class="fas fa-envelope"></i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><a href="about.html">Team</a></td>
+                     
+                      <td>
+                        <a target="_blank" href="">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                 
+                </div>
+               
+              </footer>
+</body>
+</html>

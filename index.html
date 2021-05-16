@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+    <title>HOTEL IMPERIAL</title>
+    <style>
+      html{
+        scroll-behavior: smooth;
+      }
+        body{
+            margin: 0;
+            padding: 0;
+           
+            background-repeat: no-repeat;
+            background-size: cover;
+          
+
+        }
+      
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;×
+Animated Sidenav Example
+Click on the element below to open the side navigation menu.
+
+☰ Menu
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+     .hotel{
+        display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     }
+     .hotel h1:hover{
+       font-size: 40px;
+       text-decoration: underline;
+     }
+     .menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: left;
+      padding: 0 5rem 20rem 5rem;
+width: 88%;
+    }
+    .cards-wrapper {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 8rem;
+      width: 100%;
+    }
+    .card {
+      width: 150px;
+      height: 200px;
+      box-shadow: 0 1px 40px rgba(0, 0, 0, 0.4);
+      border-radius: 1px;
+      position: relative;
+    }
+    .card-img-wrapper {
+      width: 100%;
+      height: 100%;
+      background-color: #363636;
+      border-radius: 10px;
+    }
+    .card-img-wrapper:hover {
+      width: 160px;
+      height: 210px;
+      background-color: #363636;
+      border-radius: 10px;
+      transition: all 0.4s;
+    }
+    .card-img-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.9;
+      border-radius: 0.7rem;
+      transition: opacity 0.3s;
+    }
+    .card:hover .card-img-wrapper img {
+      transition: all 0.4s;
+      width: 160px;
+      height: 210px;
+     
+    }
+  .btn button
+  {
+ border: solid 1.5px black;
+ width: 50%;
+ height: 40px;
+ border-radius: 20px;
+ position: absolute;
+ top: 50%;
+ left: 25%;
+  }
+  .btn a{
+      font-size: 16px;
+  }
+
+ 
+
+.checkin button{
+  border: solid 2px black;
+  width: 30%;
+  height: 40px;
+  border-radius: 20px;
+}
+.top img{
+  width: 30px;
+  height: 30px;
+  border: solid 2px yellow;
+  border-radius: 3px;
+  position: absolute;
+  left: 95%;
+  top: 185%;background-color: aliceblue;
+}
+
+
+
+
+footer {
+        bottom: 0px;
+        height: 250px;
+        background-color: #2c3e50;
+        color: white;
+        font-family: Verdana, sans-serif;
+        padding-top: 15px;
+        padding-left: 20px;
+        width: 98%;
+      }
+
+      .table-footer {
+        height: 100px;
+        color: white;
+        float: right;
+        width: 100%;
+      }
+
+      .table-footer th {
+        font-size: 25px;
+        text-align: left;
+        text-shadow: 2px 2px black;
+      }
+
+      .table-footer td {
+        padding: 10px;
+        text-align: left;
+      }
+
+     
+
+      .sub-footer {
+        height: 200px;
+      }
+
+      td a {
+        text-decoration: none;
+        color: white;
+      }
+
+      td a:hover {
+        text-decoration: underline;
+        border-radius: 5px;
+        transition: 0.42s;
+        font-size: 22px;
+      }
+
+      footer center {
+        text-shadow: 1px 1px black;
+      }
+
+    </style>
+</head>
+<body background="bg.jpg">
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="romms.html">Rooms</a>
+      <a href="contact.html">Contact</a>
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+<div class="hotel" id="hotel">
+    <h1 style="color: rgb(218, 204, 204);">Welcome To Hotel WS <span style="font-size: 20px; color: whitesmoke;"> <sub>Enjoy Your Stay</sub></span></h1>
+    <p style="color: whitesmoke;"><b>Our Hotel offers comfortable accomodation with a wide variety of rooms,<br> additional services available for our guests. <br> We  offer the highest level of hopitality and grat customer service.</b></p>
+</div>
+
+
+
+  <section class="menu">
+  
+
+    <div class="cards-wrapper">
+      <div class="card" data-tilt>
+        <div class="card-img-wrapper">
+          <img class="im" src="about.jpg" />
+        </div>
+        <div class="btn">
+            <Button><a href="" style="text-decoration: none;"><b>About</b></a></Button>
+        </div>
+      </div>
+      <div class="card" data-tilt>
+        <div class="card-img-wrapper">
+          <img class="im" src="gallery.jpg" />
+        </div>
+        <div class="btn">
+            <Button><a href="gallery.html" style="text-decoration: none;"><b>Gallery</b></a></Button>
+        </div>
+    </div>
+
+  
+</div>
+
+
+    <div class="cards-wrapper">
+
+      <div class="card" >
+        <div class="card-img-wrapper">
+          <img class="im" src="room.jpg" />
+        </div>
+        <div class="btn">
+            <Button><a href="romms.html" style="text-decoration: none;"><b>Rooms</b></a></Button>
+        </div>
+
+      </div>
+      <div class="card" data-tilt>
+        <div class="card-img-wrapper">
+          <img class="im" src="contact.jpg" />
+        </div>
+        <div class="btn">
+            <Button><a href="contact.html" style="text-decoration: none;"><b>Contact</b></a></Button>
+      </div>
+      </div>
+
+    </div>
+<br><br>
+
+  </section>
+
+  <div class="checkin">
+    <center>
+  <button><a href="checkinform.html" style="text-decoration: none;"><b style=" color:black;font-size:17px">CHECK-IN</b></a></button><br><br>
+  <button><a href="account.html" style="text-decoration: none;"><b style=" color:black;font-size:17px">Room Booking</b></a></button>
+    </center>
+        </div>
+
+        <div class="top">
+          <a href="#hotel"> <img src="top.png" alt=""> </a>
+        </div>
+        <footer>
+          <center>IMPERIAL HOTEL &copy; 2021</center>
+          <div id="CONTACT"></div>
+         
+            <table class="table-footer">
+              <tr>
+                <th>About us</th>
+                <th>Contact</th>
+              </tr>
+              <tr>
+                <td><a href="romms.html">ROOMS</a></td>
+                
+                <td>
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/Creative-Decors-112704957174736"
+                  >
+                  <i class="fab fa-facebook-square"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td><a href="">Blogs</a></td>
+               
+                <td>
+                  <a
+                    target="_blank"
+                    href="" >
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td><a href="about.html">Team</a></td>
+               
+                <td>
+                  <a target="_blank" href="">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </td>
+              </tr>
+            </table>
+           
+          </div>
+         
+        </footer>
+    
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+    
+
+</body>
+</html>
